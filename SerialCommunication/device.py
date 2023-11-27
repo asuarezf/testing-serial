@@ -1,6 +1,8 @@
 import serial 
 
 class device:
+    ## DEFAULT VALUES
+    speed = 115200
     import serial
     
     def __init__(self,port):
